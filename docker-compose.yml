@@ -10,6 +10,7 @@ services:
     environment:
       - RAILS_ENV=production
       - RAILS_SERVE_STATIC_FILES=true
+      - ITS_LDAP_HOST=${ITS_LDAP_HOST}
     volumes:
       - .:/myapp
 
